@@ -1,0 +1,85 @@
+# 📁 FOLDER STRUCTURE GUIDE
+
+## Complete Project Structure
+
+```
+web-scraping-task/
+│
+├── web_scraper.py          # Main Python scraping script
+├── scraped_data.csv        # CSV file with extracted data (sample included)
+├── requirements.txt        # Python package dependencies
+├── README.md              # Complete project documentation
+├── .gitignore             # Git ignore file
+│
+└── screenshots/           # Optional folder for screenshots
+    └── output_preview.png # (Add your own screenshot)
+```
+
+## 📝 How to Set Up This Structure
+
+### Method 1: Manual Setup
+
+1. Create a new folder: `web-scraping-task`
+2. Copy all provided files into this folder
+3. (Optional) Create `screenshots/` folder for output images
+
+### Method 2: Using Terminal
+
+```bash
+# Create main directory
+mkdir web-scraping-task
+cd web-scraping-task
+
+# Create optional screenshots folder
+mkdir screenshots
+
+# Copy/paste the provided files:
+# - web_scraper.py
+# - requirements.txt
+# - README.md
+# - .gitignore
+# - scraped_data.csv (this will be regenerated when you run the script)
+```
+
+## 🚀 GitHub Setup
+
+### Step 1: Initialize Git Repository
+```bash
+cd web-scraping-task
+git init
+```
+
+### Step 2: Add Files
+```bash
+git add .
+git commit -m "Initial commit: Task 13 - Web Scraping"
+```
+
+### Step 3: Push to GitHub
+```bash
+# Create a new repository on GitHub first, then:
+git remote add origin https://github.com/yourusername/web-scraping-task.git
+git branch -M main
+git push -u origin main
+```
+
+## ✅ Files Checklist
+
+Before submission, ensure you have:
+
+- ✅ `web_scraper.py` - Your scraping script
+- ✅ `scraped_data.csv` - Generated CSV with data
+- ✅ `requirements.txt` - Dependencies list
+- ✅ `README.md` - Project documentation
+- ✅ `.gitignore` - Git ignore rules
+- ✅ (Optional) Screenshots of output
+
+## 📤 Submission
+
+1. Push everything to GitHub
+2. Copy your repository link (e.g., `https://github.com/yourusername/web-scraping-task`)
+3. Submit the link before 10:00 PM
+
+---
+
+**Note:** The `scraped_data.csv` file included is a sample. When you run `web_scraper.py`, it will generate a fresh CSV with actual scraped data.
